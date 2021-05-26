@@ -4,8 +4,8 @@ public class SortingMethods {
     }
 
     public static void sort(Record[] records){
-        //SortingMethods.selectionSort(records);
-        SortingMethods.insertionSort(records);
+        SortingMethods.selectionSort(records);
+        //SortingMethods.insertionSort(records);
         //SortingMethods.mergeSort(records);
     }
 

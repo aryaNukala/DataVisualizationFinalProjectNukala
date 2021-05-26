@@ -4,8 +4,8 @@ public class SearchingMethods {
     }
 
     public static int search(Record[] records, String type){
-        //return SearchingMethods.linearSearch(records, type);
-        return SearchingMethods.binarySearch(records, type);
+        return SearchingMethods.linearSearch(records, type);
+        //return SearchingMethods.binarySearch(records, type);
     }
 
     private static int linearSearch(Record[] records, String type){
